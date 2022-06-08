@@ -13,10 +13,10 @@ __Keywords__: Self-Driven car, RaspberryPi 4, Arduino, C++, Computer Vision, Ope
 Lane detection algorithm involves the following steps
 * create a region of interest
 
-![region_of_interest](/autonomous_car/img/Lane_detection_1.png)
+![](/autonomous_car/img/Lane_detection_1.png)
 * perspective warping of region of interest
 
-![perspective_warping](/autonomous_car/img/Lane_detection_2.png)
+![](/autonomous_car/img/Lane_detection_2.png)
 * extracting an edge-image by Canny filter
 * apply Hough Transform to extract lane lines from the canny edge-image
 
@@ -39,6 +39,6 @@ During inference the trained xml file is loaded and "cv::CascadeClassifier" clas
 
 
 <p float="center">
-  <img src="img/car_on_track_1.jpeg" width="250" />
-  <img src="img/car_on_track_2.jpeg" width="250" /> 
+  <img src="img/car_on_track_1.jpeg" width="200" />
+  <img src="img/car_on_track_2.jpeg" width="200" /> 
 </p>
